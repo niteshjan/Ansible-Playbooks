@@ -1,0 +1,23 @@
+---
+
+# VPC
+
+vpc_cidr: 10.0.0.0/16
+vpc_name: "Ansible VPC"
+
+# subnet 
+
+subnet_name: "Ansible Subnet"
+subnet_cidr: 10.0.0.0/24
+
+# Internet Gateway Name
+
+igw_name: "Traffic IGW"
+
+securitygroup_name: "Ansiblegroup"
+
+ec2_tag: "Webserver"
+
+route_name: "Ansible Route"
+
+key_name: "ansibleLearn"
